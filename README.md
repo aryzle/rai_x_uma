@@ -9,7 +9,7 @@ Unit tests included.
 
 ## Deployment
 
-After talking to the UMA developers in their Discord, a Kovan Rai Price Identifier was added [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Pricefeed%20Identifiers) and RAI was added as collateral [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Whitelisted%20Collateral%20Currencies).
+After talking to the UMA developers in their [Discord](https://discord.com/channels/718590743446290492/718591751543062548/816323541854191616), a Kovan Rai Price Identifier was added [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Pricefeed%20Identifiers) and RAI was added as collateral [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Whitelisted%20Collateral%20Currencies).
 Afterwards I deployed an UMA ExpiringMultiParty (EMP) contract targeting `RaiRedemptionRate` to the Kovan network. Lastly, I approved WETH as a form of collateral.
 
 #### Collateral name
