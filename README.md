@@ -1,23 +1,6 @@
 # RAI x UMA Challenge
 Project for bounty https://gitcoin.co/issue/reflexer-labs/geb/97/100024834
 
-## References
-
-### RAI
-
-* OracleRelayer source https://github.com/reflexer-labs/geb/blob/master/src/OracleRelayer.sol
-* OracleRelayer docs https://docs.reflexer.finance/system-contracts/oracle-module/oracle-relayer
-
-### UMA
-
-#### Setup and Minting a Synthetic token
-
-* Setup https://docs.umaproject.org/developers/setup
-* Local testing https://docs.umaproject.org/build-walkthrough/mint-locally
-* EMP deployment https://docs.umaproject.org/developers/emp-deployment
-* EMP docs https://docs-dot-uma-protocol.appspot.com/uma/contracts/ExpiringMultiParty.html
-* EMP launcher https://github.com/UMAprotocol/launch-emp
-
 ## Code
 
 https://github.com/aryzle/protocol/tree/as/rai_redemption_rate_feed
@@ -27,7 +10,7 @@ Unit tests included.
 ## Deployment
 
 After talking to the UMA developers in their Discord, a Kovan Rai Price Identifier was added [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Pricefeed%20Identifiers) and RAI was added as collateral [here](https://thegraph.com/explorer/subgraph/umaprotocol/uma-kovan?query=Whitelisted%20Collateral%20Currencies).
-Afterwards I deployed an UMA EMP targeting `RaiRedemptionRate` to the Kovan network.
+Afterwards I deployed an UMA ExpiringMultiParty (EMP) contract targeting `RaiRedemptionRate` to the Kovan network.
 
 #### Collateral name
 ```
@@ -66,3 +49,20 @@ https://docs.umaproject.org/build-walkthrough/minting-etherscan
 Miniting transaction:
 
 https://kovan.etherscan.io/tx/0xe484c70161ab4d6a6861779c2d4360fb5ac088f1011316648c9dff3366eeadaa
+
+## References
+
+### RAI
+
+* OracleRelayer source https://github.com/reflexer-labs/geb/blob/master/src/OracleRelayer.sol
+* OracleRelayer docs https://docs.reflexer.finance/system-contracts/oracle-module/oracle-relayer
+
+### UMA
+
+#### Setup and Minting a Synthetic token
+
+* Setup https://docs.umaproject.org/developers/setup
+* Local testing https://docs.umaproject.org/build-walkthrough/mint-locally
+* EMP deployment https://docs.umaproject.org/developers/emp-deployment
+* EMP docs https://docs-dot-uma-protocol.appspot.com/uma/contracts/ExpiringMultiParty.html
+* EMP launcher https://github.com/UMAprotocol/launch-emp
