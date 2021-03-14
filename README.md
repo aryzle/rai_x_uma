@@ -50,7 +50,7 @@ Afterwards I deployed an UMA EMP targeting `RaiRedemptionRate` to the Kovan netw
 
 ### EMP deployment
 
-The EMP was deployed to the Kovan network using the `launch-emp` repo provided by UMA. The input parameters to their script is in index.js.
+The EMP was deployed to the Kovan network using the `launch-emp` repo provided by UMA. The input parameters to their script is in [index.js](https://github.com/aryzle/rai_x_uma/blob/main/index.js).
 
 Deployed at
 
